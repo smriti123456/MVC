@@ -1,0 +1,18 @@
+import java.util.*;
+import controller .*;
+import model.LoginModel;
+import views.*;
+
+
+public class LoginMVC {
+
+public static void main(String[] args) {
+LoginModel user = new LoginModel();
+Scanner scanner = new Scanner(System.in);
+  System.out.println(" enter Username:");
+  user.setUsername(scanner.nextLine());
+  System.out.println(" enter Password:");
+  user.setPassword(scanner.nextLine());
+  scanner.close();
+Logincontrol(user,view)
+}}
